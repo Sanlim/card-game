@@ -7,7 +7,7 @@ const prepareStateFromWord = (given_word) => {
     return {
         word,
         chars,
-        attempt: 1,
+        attempt: 0,
         guess: [],
         completed: false
     }
