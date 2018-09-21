@@ -20,8 +20,8 @@ export default class WordCard extends Component {
     activationHandler = (c) => {
         let guess = [this.state.guess, c]
         this.setState({guess})
-        if(guess.length === this.state.chars.length){
-            if(guess === this.state.word){
+        if(guess.length == this.state.chars.length){
+            if(guess == this.state.word){
                 this.setState({guess: [], completed: true})
             }else{
                 this.setState({guess: [], attempt: this.state.attempt + 1})
