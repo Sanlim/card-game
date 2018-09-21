@@ -36,6 +36,6 @@
   user-select: none;
 }
 .activeCard{
-  color: red;
+  color: blue;
   background: pink;
 }
