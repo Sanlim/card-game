@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./App.css";
 import WordCard from './WordCard';
 
-const word = "Enginering";
+const word = "Engineering";
 class App extends Component {
   render() {
     return (
